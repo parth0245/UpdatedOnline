@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="col-lg-12">
+
+        <div class="col-lg-4 registerSection">
+            <div class="col-lg-12">
+               <h1>SIGN UP</h1>
+            </div>
+            <form>
+                <div class="input-group">
+                    <span class="input-group-addon">Full Name</span>
+                    <input type="text" class="form-control" name="msg" placeholder="Your Name Here">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Email</span>
+                    <input type="text" class="form-control" name="msg" placeholder="Your Email Here">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Mobile</span>
+                    <input type="text" class="form-control" name="msg" placeholder="Your Contact Here">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-addon">Password</span>
+                    <input type="password" class="form-control" name="msg" placeholder="Your Password Here">
+                </div>
+
+                <button type="button" class="col-lg-4 btn btn-success">Register</button>
+                <button type="button" class="col-lg-4 btn btn-success pull-right">Back to Login</button>
+
+
+            </form>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="col-lg-12 text-center">
+                <h1>Property Types</h1>
+            </div>
+            <div class="col-lg-6 noPadding margin-top-15" *ngFor="let i of [1,2,3,4]">
+                <img src="../../assets/bunglow.jpg" height="180" width="300" class="borderForImages"/>
+            </div>
+        </div>
+    </div>
+</div>
